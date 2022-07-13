@@ -1,0 +1,8 @@
+{
+  "apiUrl": "http://localhost:4200",
+  "apiKey": "KPN4TYEWDZ49F3MMCPKRXCPXN7W0",
+  "project": "287c2178-03b9-4010-b63b-21a7ac8f300e",
+  "branchName": "master",
+  "ciBuildId": "CI-004",
+  "enableSoftAssert": false
+}

@@ -31,3 +31,18 @@ Cypress.Commands.add('login', (email, password) => {
 //
 // -- This will overwrite an existing command --
 // Cypress.Commands.overwrite("visit", (originalFn, url, options) => { ... })
+
+
+import {
+  addVrtTrackCommand,
+  addVrtStartCommand,
+  addVrtStopCommand,
+  addVrtTrackBufferCommand,
+  addVrtTrackBase64Command,
+} from "@visual-regression-tracker/agent-cypress/dist/commands";
+
+addVrtStartCommand();
+addVrtStopCommand();
+addVrtTrackCommand();
+addVrtTrackBufferCommand();
+addVrtTrackBase64Command();
